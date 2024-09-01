@@ -12,8 +12,7 @@ After launching your EC2 instance, connect to it in aws
 
 ## Commands to Run
 
-1. Update the package list:
-   ```bash
+
    sudo apt update
    ```
 

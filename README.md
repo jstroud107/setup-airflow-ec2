@@ -7,11 +7,8 @@
 - **Image**: Ubuntu
 
 ## Connect to EC2 Instance
-After launching your EC2 instance, connect to it using SSH:
+After launching your EC2 instance, connect to it in aws
 
-```bash
-ssh -i your-key.pem ubuntu@your-ec2-public-ip
-```
 
 ## Commands to Run
 
@@ -82,11 +79,11 @@ ssh -i your-key.pem ubuntu@your-ec2-public-ip
     GRANT ALL PRIVILEGES ON DATABASE airflow TO airflow;
     ```
 
-14. Exit the PostgreSQL shell by pressing `Ctrl + D` twice.
+14. Exit the PostgreSQL shell by pressing `Ctrl + D`.
 
 15. Navigate to the Airflow directory:
     ```bash
-    cd ~/airflow
+    cd airflow
     ```
 
 16. Replace the connection string in the `airflow.cfg` file to use PostgreSQL instead of SQLite:

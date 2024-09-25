@@ -164,3 +164,5 @@ end = DummyOperator(task_id='end', dag=dag)
 start >> end
 
  ```
+29. Ctrl-S and Ctrl-C to exit
+30. 

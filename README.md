@@ -137,6 +137,9 @@ After launching your EC2 instance, connect to it in aws
     ```text
     http://your-ec2-public-ip:8080
     ```
+26. mkdir dags
+27. cd dags
+28. (Testfile)- nano my_new_dag.py
 Use below dag code as a test. make sure to mkdir dag folder and then put this .py script in there!
 ```text
 from airflow import DAG
